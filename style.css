@@ -1,0 +1,378 @@
+body{
+  position: initial;
+    overflow-x: hidden;
+}
+
+h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 40px;
+    color: rgb(70, 66, 66);
+}
+p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    color: gray;
+}
+.image{
+    margin-right: 500px;
+    height: 55px;
+     width: 70px;
+}
+.nav-link{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+.introdiv{
+    box-sizing: content-box;
+    width: 100%;
+    height: 750px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: -2;
+
+}  
+.introdiv-left{
+    width: 45%;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+    padding-top: 11em;
+    padding-left: 3em;
+    position: relative;
+    z-index: -4;
+    
+}
+.introdiv-left h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 55px;
+    color: rgb(70, 66, 66) ;
+    position: relative;
+}
+.introdiv-right{
+    width: 55%;
+    height: 600px;
+    background-color:#ffffff;
+    float: right;
+    
+    z-index: 3;
+}
+.contain-div{
+    width: 50%;
+    height: 470px;
+    position: absolute;
+    background-image: linear-gradient(19deg,darkblue 10%,purple 70%,red );
+    z-index: 99;
+    margin: 5% 4% 0% 2%;
+    border-radius: 5% ;
+    opacity: 0.75;
+}
+.contain-div2{
+    width: 92%;
+    height: 88%;
+    background-color: pink;
+    margin: 4% 4% 4% 4%;
+    position: absolute;
+    z-index: 100;
+   
+
+}
+.backstyle1{
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+    background-color: skyblue;
+    border-radius: 600px/400px;
+    margin: 0% 0% 0% 30%;
+    opacity: 0.1;
+ 
+
+}
+.backstyle2{
+  
+    height: 75%;
+    width: 70%;
+    position: absolute;
+    background-color: skyblue;
+    border-radius: 600px/400px;
+    margin: 10% 0% 0% 40%;
+    opacity: 0.1;
+    z-index: -1;
+    
+}
+.features{
+  
+    height: 300px;
+    padding: 0% 3% 0% 8%;
+    
+   
+}
+.features1{
+    position: initial;
+    height: 130px;
+    width:23%;
+    float: left;
+    margin-right: 2% ;
+    
+    border-radius: 0px 30px 30px 0px;
+    z-index: 99;
+    box-shadow: 2px 1px 1px 1px rgb(187, 185, 185);
+   
+}
+
+figure {
+    background: #ffffff;
+    height: 400px;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+   
+  }
+  
+  figure button[name="play"] {
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: 3px 2px 4px 1px rgb(70, 66, 66);
+    border: none;
+    border-radius: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+  figure button[name="play"]:focus {
+    outline: 0;
+    border: 1px solid black;
+    box-shadow: 0 0 0 3px black;
+  }
+  
+  figure button[name="play"]::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 1.5px;
+    left: 4px;
+    border-style: solid;
+    border-width: 40px 0 40px 30px;
+    border-color: transparent transparent transparent darkblue;
+  }
+  .middiv{
+      box-sizing: content-box;
+      position: relative;
+  }
+
+  .middiv-left{
+    width: 60%;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+    padding-top: 6em;
+    padding-left: 3em;
+    position: relative;
+    z-index: -20;
+    
+}
+.middiv-left h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 55px;
+    color: rgb(70, 66, 66) ;
+}
+
+.working{
+    height: 600px;
+    position: relative;
+    text-align: center ; 
+    width: 100%; 
+    float: left;
+   
+}
+.working-contain{
+    height: 500px;
+    box-sizing: content-box;
+    width: 100%;
+    
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.work-contain0{
+    width: 250px;
+    height: 400px;
+    float: left;
+    text-align: center;
+   
+
+}
+.work-contain1{
+    width: 100%;
+    height:  250px;
+    float: left;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 2px 2px 1px 3px rgb(187, 185, 185);
+
+}
+  
+.work-contain2{
+    padding-top: 100px;
+    float: left;
+    height: 250px;
+    width: 8em;
+}
+
+#livecontentbefore{
+  
+
+height: 800px;
+width: 100%;
+
+}
+.live-content{
+    height: 400px;
+    width: 100%;
+    background-color: lavenderblush;
+}
+
+
+.live-left{
+  width: 60%;
+  height: 600px;
+  background-color: #ffffff;
+  float: right;
+  padding-top: 6em;
+  padding-left: 3em;
+  position: relative;
+  z-index: -20;
+  
+}
+
+.livecontent h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 55px;
+    color: rgb(70, 66, 66) ;
+    position: relative;
+}
+
+.live-left h1{
+    
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 55px;
+  color: rgb(70, 66, 66) ;
+}
+
+
+.jeediv{
+    margin-top: 100px;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.jeediv-left{
+  width: 40%;
+  height: 600px;
+  background-color: #ffffff;
+  float: right;
+  padding-top: 6em;
+  padding-left: 3em;
+  position: relative;
+  z-index: -20;
+  
+}
+.jeediv-left h2{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 40px;
+  color: rgb(70, 66, 66) ;
+}
+.jeediv-right{
+    height: 600px;
+    width: 60%;
+}
+.coro{
+   margin-top: 80px;
+    margin-left: 50px;
+    height: 400px;
+    width:80%;
+    box-shadow: 2px 2px 1px 3px rgb(187, 185, 185);
+
+}
+
+.jeediv h1{
+    font-family: 'Archivo Black', sans-serif;
+  font-size: 55px;
+  color: rgb(70, 66, 66) ;
+  padding-left: 10%;
+}
+.subjects{
+    box-sizing: content-boxx;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+   
+}
+.subjects h1{
+    color: darkblue;
+    font-family: 'Archivo Black', sans-serif;
+  font-size: 55px;
+    padding-left: 280px;
+}
+.subicon{
+    margin-top: 100px;
+    height: 170px;
+    width: 100%;
+    padding-left: 6%;
+}
+.subicon1{
+    height: 170px;
+    width: 20%;
+    float: left;
+   background-color: #ffffff;
+    margin-right: 4em ;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 1px 3px rgb(187, 185, 185);
+    padding-left: 5em;
+
+}
+
+.books{
+    box-sizing: content-boxx;
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+   
+}
+.books h1{
+    color: rgb(70, 66, 66);
+    font-family: 'Archivo Black', sans-serif;
+  font-size: 55px;
+    padding-left: 280px;
+}
+.bookicon{
+    margin-top: 100px;
+    height: 170px;
+    width: 100%;
+    padding-left: 6%;
+}
+.bookicon1{
+    height: 170px;
+    width: 20%;
+    float: left;
+   background-color: #ffffff;
+    margin-right: 4em ;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 1px 3px rgb(187, 185, 185);
+    padding-left: 5em;
+
+}
+@media screen and (max-width:1000px) {
+    .h {
+        margin-left:200px ;
+        }
+    .backstyle1{
+        display: none;
+    }
+    .backstyle2{
+        display: none;
+    }
+    .introdiv-right{
+        display: none;
+    }
+    
+    }
